@@ -1,0 +1,62 @@
+.App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f3f3f3;
+  min-height: 100vh;
+}
+header {
+  background: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+.car-list {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.car-card {
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  width: 230px;
+  cursor: pointer;
+  transition: transform 0.15s;
+  text-align: center;
+}
+.car-card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+}
+.car-card img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  height: 145px;
+  object-fit: cover;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car-3d-viewer {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.06);
+  margin: 2em auto;
+  padding: 2em;
+  width: 560px;
+  max-width: 95vw;
+}
+.viewer {
+  width: 500px;
+  height: 320px;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  margin-top: 3em;
+  color: #888;
+  font-size: 0.95em;
+}
